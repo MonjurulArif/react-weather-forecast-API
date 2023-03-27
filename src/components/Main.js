@@ -9,7 +9,7 @@ import { useLoaderData } from "react-router-dom";
 // import { getFormattedWeatherData } from "../weatherInfo";
 
 const Main = () => {
-  const API_KEY = "2371457986af435418cd3666d3191525";
+  const API_KEY = "2371457986af435418cd3666d3191525c25";
   const iconUrlFromCode = (code) => `http://openweathermap.org/img/wn/${code}@2x.png`;
 
   const [forcast, setForcast] = useState({});
