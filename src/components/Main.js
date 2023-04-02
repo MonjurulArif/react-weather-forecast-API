@@ -74,7 +74,10 @@ const Main = () => {
   };
 
   return (
-    <div>
+    
+//     <div
+//         class="w-full h-screen bg-[url('https://placekitten.com/1400')] bg-cover bg-center">
+//     </div>
       <div className=" w-full h-screen bg-cover relative">
         <img src={background} className="w-full h-full object-cover " alt="" />
         <div className="absolute top-[-20px] right-0 bottom-0 left-0 m-auto md:w-[540px] h-[570px] text-center text-black  rounded-xl border-cyan-700 bg-gray-800/70 ">
