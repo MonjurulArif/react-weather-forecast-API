@@ -96,6 +96,7 @@ const Main = () => {
             name="searchName"
             id=""
             placeholder="Enter City or Country"
+            onKeyPress={handleSearch}
           />
           <span>
             <FontAwesomeIcon onClick={handleSearch} className="pl-2 text-xl text-lime-300 hover:text-emerald-300 hover:scale-125 cursor-pointer" icon={faSearch} />
